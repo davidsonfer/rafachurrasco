@@ -31,7 +31,7 @@ export function Hero() {
               </p>
               <div className="flex justify-center lg:justify-start">
                 <a
-                  href="#"
+                  href="https://wa.me/553184753764?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20or%C3%A7amento%20de%20churrasco"
                   className="bg-green-500 px-5 py-3 rounded-md font-semibold flex items-center gap-2 text-white shadow-lg hover:bg-green-600 transition"
                 >
                   <WhatsappLogo className="w-5 h-5" />

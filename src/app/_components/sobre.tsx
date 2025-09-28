@@ -9,20 +9,6 @@ export function About() {
     <section className="bg-[#FDF6ec] py-16">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative w-full h-[400px] rounded-3xl overflow-hidden ">
-
-            {/* Primeiro tópico */}
-
-            <Image
-              src={FotoRafa}
-              alt="Foto Rafa"
-              fill
-              quality={100}
-              priority
-              className="object-contain hover:scale-110 duration-300"
-            />
-          </div>
-
           <div className="space-y-6 mt-10">
             <h2 className="text-5xl font-bold">Sobre</h2>
             <p className="text-2xl">
@@ -46,12 +32,24 @@ export function About() {
               </li>
             </ul>
             <a
-              href="#"
+              href="https://wa.me/553184753764?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20or%C3%A7amento%20de%20churrasco"
               className="bg-green-500 px-5 py-3 rounded-md font-semibold flex items-center justify-center gap-2 w-fit text-white shadow-lg hover:bg-green-600 transition"
             >
               <WhatsappLogo className="w-5 h-5 text-white" />
               Contato via WhatsApp
             </a>
+          </div>
+          <div className="relative w-full h-[400px] rounded-3xl overflow-hidden ">
+            {/* Primeiro tópico */}
+
+            <Image
+              src={FotoRafa}
+              alt="Foto Rafa"
+              fill
+              quality={100}
+              priority
+              className="object-contain hover:scale-110 duration-300"
+            />
           </div>
         </div>
       </div>
@@ -91,25 +89,25 @@ export function About() {
       <div className="bg-[#FDF6ec] py-16">
         <div className="container px-4 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
-              <Image
-                src={Carnes}
-                alt="Foto do certificado"
-                fill
-                quality={100}
-                priority
-                className="object-contain hover:scale-110 duration-300"
-              />
-            </div>
             <div className="space-y-6 mt-10">
               <h2 className="text-5xl font-bold">
                 Qualidade e satisfação é minha maior prioridade
               </h2>
               <p className="text-2xl">
-                Faço questão de trabalhar com os melhores cortes, afim de
-                trazer o melhor sabor e qualidado para o evento
+                Faço questão de trabalhar com os melhores cortes, afim de trazer
+                o melhor sabor e qualidado para o evento
               </p>
             </div>
+          </div>
+          <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
+            <Image
+              src={Carnes}
+              alt="Foto do certificado"
+              fill
+              quality={100}
+              priority
+              className="object-contain hover:scale-110 duration-300"
+            />
           </div>
         </div>
       </div>
