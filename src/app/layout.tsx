@@ -15,20 +15,23 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Churrasco do Rafael",
   description: "Site churrasco do Rafael",
-  openGraph: {
-    title: "Churrasco do Rafael",
-    description: "Qualidade e satisfação é minha maior prioridade",
-    url: "https://rafachurrasco.vercel.app/",
-    images: [
-      {
-        url: "../../public/background.png.png", // precisa ser URL absoluta
-        width: 1200,
-        height: 630,
-        alt: "Imagem de destaque do site",
-      },
-    ],
+  icons: {
+    icon: "/favicon-32x32.png",
   },
-}
+  openGraph: {
+    images: [{ url: "/background.png" }],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+    }
+  }
+};
 
 export default function RootLayout({
   children,
