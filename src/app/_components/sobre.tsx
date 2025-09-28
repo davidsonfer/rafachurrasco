@@ -69,7 +69,6 @@ export function About() {
                 entregar excelência e profissionalismo no preparo de carnes.
               </p>
             </div>
-
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
                 src={Certificado}
@@ -98,16 +97,16 @@ export function About() {
                 o melhor sabor e qualidado para o evento
               </p>
             </div>
-          </div>
-          <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
-            <Image
-              src={Carnes}
-              alt="Foto do certificado"
-              fill
-              quality={100}
-              priority
-              className="object-contain hover:scale-110 duration-300"
-            />
+            <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
+              <Image
+                src={Carnes}
+                alt="Foto do certificado"
+                fill
+                quality={100}
+                priority
+                className="object-contain hover:scale-110 duration-300"
+              />
+            </div>
           </div>
         </div>
       </div>
