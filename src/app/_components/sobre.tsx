@@ -7,7 +7,7 @@ import Carnes from "../../../public/cortes.png";
 export function About() {
   return (
     <section className="bg-[#FDF6ec] py-16">
-      <div className="container px-4 mx-auto">
+      <div className="container px-4 max-w-7xl mx-auto border-b-2 border-stone-200 pb-40">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 mt-10">
             <h2 className="text-5xl font-bold">Sobre</h2>
@@ -56,7 +56,7 @@ export function About() {
 
       {/* Segundo Tópico */}
 
-      <div className="bg-[#FDF6ec] py-16">
+      <div className="bg-[#FDF6ec] max-w-7xl mx-auto py-16 border-b-2 border-stone-200 pb-40">
         <div className="container px-4 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 mt-10">
@@ -85,7 +85,7 @@ export function About() {
 
       {/* Terceiro Tópico */}
 
-      <div className="bg-[#FDF6ec] py-16">
+      <div className="bg-[#FDF6ec] max-w-7xl mx-auto py-16 ">
         <div className="container px-4 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 mt-10">

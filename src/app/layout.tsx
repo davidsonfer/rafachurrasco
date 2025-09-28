@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     icon: "/favicon-32x32.png",
   },
   openGraph: {
-    images: "/churrascoicone.jpg",
+    images: "/Logo.jpeg",
   },
   robots: {
     index: true,
